@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+    <link rel="stylesheet" type="text/css" href="css/microsoftM.css">
+    <title>Title</title>
+    <script>
+        ;(function(win,doc){
+            function change(){
+                document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';
+                document.getElementsByTagName('body')[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+            }
+            win.addEventListener('resize',change,false);
+            win.addEventListener('DOMContentLoaded',change,false);
+        })(window,document);
+    </script>
+    <style>
+        .wp{
+            width: 100%;
+            height: 100%;
+        }
+        .wp-inner{
+            width: 100%;
+        }
+        .page{
+            position: relative;
+            background: cadetblue;
+        }
+        .page h1{
+            font-size: 1.2rem;
+            text-align: center;
+            line-height: 2rem;
+            width: 100%;
+            position: absolute;
+            left:0;
+            top:4rem;
+        }
+        .page .img{
+            width: 8rem;
+            position: absolute;
+            left:4rem;
+            top:9rem;
+        }
+        .nav {
+            position: fixed;
+            top:0.5rem;
+            left: 0.5rem;
+        }
+        .nav li{
+            float: left;
+            padding: 0.25rem;
+            font-size: 0.6rem;
+            color: #fff;
+            margin:0 0.25rem;
+            background: chartreuse;
+        }
+    </style>
+</head>
+<body>
+<div class="wp">
+    <div class="wp-inner" id="wp">
+        <div class="page">
+            <div class="page1">
+                <div class="logo_microsoft"></div>
+                <div class="bg-box"></div>
+                <div class="bg-title"></div>
+                <div class="content-title ">
+                    <p class="chi-title">2017微软校园招聘</p>
+                    <p class="eng-title">CAMPUS  RECRUITMENT</p>
+                </div>
+                <div class="bg-btns"></div>
+                <p class="opc-btn btn1"></p>
+                <a class="btns btn1">立即申请</a>
+                <p class="opc-btn btn2"></p>
+                <a class="btns btn2">宣讲行程</a>
+                <p class="opc-btn btn3"></p>
+                <a class="btns btn3">招聘进程</a>
+            </div>
+        </div>
+        <div class="page">
+            <div class="page2">
+                <div class="logo_microsoft"></div>
+                <ul class="cities-box">
+                    <li class="rows1 col1 active dalu">大陆</li>
+                    <li class="rows1 col2"><a href="###">北京</a></li>
+                    <li class="rows1 col3"><a href="###">上海</a></li>
+                    <li class="rows1 col4"><a href="###">合肥</a></li>
+                    <li class="rows1 col5"><a href="###">武汉</a></li>
+                    <li class="rows2 col1"><a href="###">杭州</a></li>
+                    <li class="rows2 col2"><a href="###">苏州</a></li>
+                    <li class="rows2 col3"><a href="###">无锡</a></li>
+                    <li class="rows2 col4"><a href="###">南京</a></li>
+                    <li class="rows2 col5"><a href="###">广州</a></li>
+                    <li class="rows3 col1"><a href="###">西安</a></li>
+                    <li class="rows3 col2"><a href="###">哈尔滨</a></li>
+                    <li class="rows3 col3"><a href="###">大连</a></li>
+                    <li class="rows3 col4 active taiwan">台湾</a></li>
+                    <li class="rows3 col5"><a href="###">台北</a></li>
+                    <li class="rows4 col1"><a href="###">高雄</a></li>
+                    <li class="rows4 col2 active xianggang">香港</a></li>
+                    <li class="rows4 col3"><a href="###">香港</a></li>
+                </ul>
+            </div>
+        </div>
+       <div class="page">
+             <div class="page3">
+                 <div class="logo_microsoft"></div>
+                 <div class="pg3-content"><img data-src="imgM/pg3_bg.png"></div>
+             </div>
+         </div>
+        <div class="page">
+            <div class="page5">
+                <div class="logo_microsoft"></div>
+                <ul class="pg5-box">
+                    <li class="row1 col1" id="dalu"><p>大陆</p></li>
+                    <li class="row1 col2" id="taiwan"><p>台湾</p></li>
+                    <li class="row2 col1" id="xianggang"><p>香港</p></li>
+                    <li class="row2 col2" id="meiguo"><p>美国</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/zepto.min.js"></script>
+<script src="js/mango.js"></script>
+<script src="js/microsoftM.js"></script>
+</body>
+</html>

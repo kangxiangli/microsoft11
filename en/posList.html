@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css">
+    <link rel="stylesheet" type="text/css" href="css/microsoftM.css">
+    <title>职位列表</title>
+    <script>
+        ;(function(win,doc){
+            function change(){
+                document.documentElement.style.fontSize=document.documentElement.clientWidth/16+'px';
+                document.getElementsByTagName('body')[0].style.fontSize=document.documentElement.clientWidth/16+'px';
+            }
+            win.addEventListener('resize',change,false);
+            win.addEventListener('DOMContentLoaded',change,false);
+        })(window,document);
+    </script>
+</head>
+<body>
+        <div class="page">
+             <div class="page6">
+                 <div class="logo_microsoft"></div>
+                 <a class="pg6-back" id="backIndex">返回</a>
+                 <h2 class="pg6-tit">大陆</h2>
+                 <div class="pg6-nav-div">
+                     <ul class="pg6-nav-box">
+                         <li class="ele1 active">应届生招聘</li>
+                         <li class="ele2">MBA招聘</li>
+                         <li class="ele3">预苗计划</li>
+                         <li class="ele4">预科生计划招聘</li>
+                     </ul>
+                 </div>
+
+
+                 <div class="pg6-content">
+                    <div>
+                        <span class="last-btn"></span>
+                        <span class="center-con"><span id="fst">亚太研发集团职位first</span><span>亚太研发集团职位</span><span class="show" id="lst">亚太研发集团职位last</span></span>
+                        <span class="next-btn  btn-disabled"></span>
+                    </div>
+                     <div class="sec2">
+                        <ul>
+                            <li class="active">北京</li>
+                            <li>上海</li>
+                            <li>广州</li>
+                            <li>无锡</li>
+                        </ul>
+                     </div>
+                     <div class="sec3">
+                         <ul>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                             <li>UX Designer-ASG</li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+<script src="js/zepto.min.js"></script>
+<!-- <script src="js/mango.js"></script> -->
+<script src="js/listM.js"></script>
+<!-- <script src="js/microsoft.js"></script> -->
+<!-- <script>
+    var web = new Mango($('#wp'),{
+        preLoad:['imgM/a.jpg']
+    });
+    for(var i = 0;i < $('.nav li').length;i++){
+        var index = i;
+        (function(index){
+            $('.nav li').eq(index).on('tap',function(){
+                web.moveTo(index,true);
+            });
+        })(index);
+    }
+
+</script> -->
+</body>
+</html>

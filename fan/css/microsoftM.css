@@ -1,0 +1,508 @@
+.wp{
+	overflow:hidden;
+}
+.page{
+  width: 100%;
+  height: 100%;
+}
+.page1,.page2,.page3,.page5,.page6{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    background: url("../imgM/bg1_micr.jpg") no-repeat 100% 100%;
+    background-size: 100% 100%;
+}
+.page2{
+    background: url("../imgM/bg2_micr.png") no-repeat 100% 100%;
+    background-size: 100% 100%;
+}
+.page3{
+    background: url("../imgM/bg3_micr.jpg") no-repeat 100% 100%;
+    background-size: 100% 100%;
+}
+.page5,.page6{
+    background: url("../imgM/bg5_micr.jpg") no-repeat 100% 100%;
+    background-size: 100% 100%;
+}
+.page6{
+    padding-top: 3.95rem;
+}
+.logo_microsoft{
+    background: url("../imgM/logo_microsoft.png") no-repeat 100% 100%;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0.75rem;
+    top:0.75rem;
+    width: 5.2rem;
+    height: 1.125rem;
+}
+.bg-box{
+    height: 4.45rem;
+    width: 11rem;
+    position: absolute;
+    top:9.25rem;
+    left: 2.25rem;
+    border: 0.25rem solid #9a897a;
+    opacity: 0.5;
+}
+.bg-title{
+    height: 6.25rem;
+    width: 100%;
+    position: absolute;
+    top:10rem;
+    left: 0;
+    background: #dc542a;
+    opacity: 0.9;
+}
+.content-title{
+    height: 6.25rem;
+    width: 100%;
+    position: absolute;
+    top:10rem;
+    left: 0;
+}
+.chi-title{
+    font-family:黑体;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.eng-title{
+    font-family:Myriad Pro Regular;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.bg-btns{
+    background: #51514c;
+    width: 100%;
+    height: 13rem;
+    opacity: 0.65;
+    position: absolute;
+    top:16.25rem;
+}
+.opc-btn{
+    display: block;
+    width: 11.5rem;
+    height: 1.85rem;
+    line-height: 1.75rem;
+    opacity: 0.8;
+    background: #262626;
+    position: absolute;
+    left: 2.25rem;
+}
+.btns{
+    display: block;
+    width: 11.5rem;
+    height: 1.75rem;
+    line-height: 1.75rem;
+    text-align: center;
+    position: absolute;
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    font-family: 微软雅黑;
+    border: 0.05rem #fff solid;
+    left: 2.25rem;
+}
+.btn1{
+    top:17.2rem;
+}
+.btn2{
+    top:19.35rem;
+}
+.btn3{
+    top:21.5rem;
+}
+
+.cities-box li{
+    width:2.75rem;
+    height:2.75rem;
+    background: rgba(0,0,0,0.6);
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 2.75rem;
+    position: absolute;
+}
+.cities-box li a{
+    width:100%;
+    height:100%;
+    font-size: 0.6rem;
+    background: rgba(0,0,0,0.6);
+    color: #FFFFFF;
+}
+.rows1{
+    top:5.35rem;
+}
+.rows2{
+    top:8.25rem;
+}
+.rows3{
+    top:11.15rem;
+}
+.rows4{
+    top:14.05rem;
+}
+.col1{
+    left:0.8rem;
+}
+.col2{
+    left:3.65rem;
+}
+.col3{
+    left:6.5rem;
+}
+.col4{
+    left:9.35rem;
+}
+.col5{
+    left:12.2rem;
+}
+.cities-box .active{
+    font-size: 0.9rem;
+}
+.cities-box .dalu{
+    background: rgba(240,185,38,0.8);
+}
+.cities-box .taiwan{
+    background: rgba(27,157,217,0.8);
+}
+.cities-box .xianggang{
+    background: rgba(120,167,17,0.8);
+}
+.pg3-content{
+    position: absolute;
+    width: 13.975rem;
+    height: 20.175rem;
+    left: 0;
+    top:2.9rem;
+}
+.pg3-content img{
+    width: 100%;
+    height:100%;
+}
+.pg5-box li{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    font-family: 微软雅黑;
+}
+.pg5-box .row1{
+    top:4.925rem;
+}
+.pg5-box .row2{
+    top:12.5rem;
+}
+.pg5-box .col1{
+    left:0.75rem;
+}
+.pg5-box .col2{
+    left: 8.375rem;
+}
+
+.pg5-box .row1.col1{
+    background: url("../imgM/pg5_img1.jpg");
+    background-size: 100% 100%;
+}
+.pg5-box .row1.col2{
+    background: url("../imgM/pg5_img2.jpg");
+    background-size: 100% 100%;
+}
+.pg5-box .row2.col1{
+    background: url("../imgM/pg5_img3.jpg");
+    background-size: 100% 100%;
+}
+.pg5-box .row2.col2{
+    background: url("../imgM/pg5_img4.jpg");
+    background-size: 100% 100%;
+}
+.pg5-box li p{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.pg5-box .row1.col1 p{
+    background: rgba(248,205,51,0.7);
+}
+.pg5-box .row1.col2 p{
+    background: rgba(7,103,156,0.7);
+}
+.pg5-box .row2.col1  p{
+    background: rgba(89,124,51,0.7);
+}
+.pg5-box .row2.col2 p{
+    background: rgba(210,103,64,0.7);
+}
+.pg6-back{
+    height: 1.125rem;
+    width: 1.2rem;
+    background: url("../imgM/pg6_back.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top:0.75rem;
+    right: 0.75rem;
+    font-size: 0.5rem;
+    color: #FFFFFF;
+    line-height: 1.125rem;
+    padding: 0 0.3rem 0 0.75rem;
+    display: inline-block;
+}
+.pg6-tit{
+    color: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:2.7rem;
+    font-size: 0.75rem;
+}
+.pg6-nav-div{
+    text-align: center;
+}
+.pg6-nav-box{
+    /*margin-left: 0.75rem;*/
+    /*width:14.5rem;*/
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.pg6-nav-box li{
+    float: left;
+    padding: 0.28rem 0.25rem;
+    color: #FFFFFF;
+    background: #343434;
+    font-size: 0.55rem;
+    margin-left: 0.1rem;
+}
+.pg6-nav-box li:first-child{
+    margin-left: 0;
+}
+.ele1{
+    left:0.75rem;
+}
+.ele2{
+    left:4.4rem;
+}
+.ele3{
+    left:7.65rem;
+}
+.ele4{
+    left:10.7rem;
+}
+.pg6-nav-box  .active{
+    background: #feb902;
+}
+.pg6-content{
+    position: relative;
+    margin-top: 0.25rem;
+    width:14.1rem;
+    background: #FFFFFF;
+    padding: 0.2rem;
+    margin-left: 0.75rem;
+    margin-bottom: 1.625rem;
+}
+.pg6-content>div{
+    overflow: hidden;
+}
+.last-btn,.next-btn{
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    float: left;
+}
+.last-btn{
+    background:#979797 url(../imgM/pg6_left_arr.png) center center no-repeat;
+    background-size: 0.425rem  0.875rem;
+}
+.next-btn{
+    background:#979797 url(../imgM/pg6_right_arr.png) center center no-repeat;
+    background-size: 0.425rem  0.875rem;
+    float: right;
+}
+.center-con{
+    display: inline-block;
+    width:11.35rem;
+    height: 1.25rem;
+    background:#feb902 ;
+    float: left;
+    margin-left: 0.12rem;
+    text-align: center;
+    font-size: 0.55rem;
+    line-height: 1.25rem;
+    position: relative;
+}
+.center-con span{
+    display: none;
+}
+.center-con .show{
+    display: inline;
+}
+.btn-disabled{
+    background-color: #e8e8e8;
+}
+.pg6-content .sec2:before{
+    content: "";
+    position: absolute;
+    top: 1.3rem;
+    left: 50%;
+    padding: 0.3rem;
+    background: #FFFFFF;
+    border: #FFFFFF;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+    z-index: 10;
+    margin-left: -0.15rem;
+}
+.sec2 ul{
+    margin-top: 0.575rem;
+}
+.sec2 ul li{
+    float: left;
+    padding: 0.2rem  1.05rem;
+    color: #818181;
+    background: #e8e8e8;
+    font-size: 0.6rem;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+.sec2 ul li:first-child{
+    margin-left: 0;
+}
+.sec2 ul .active{
+    font-size: 0.75rem;
+    color: #FFFFFF;
+    background: #feb902;
+    margin-top: 0;
+}
+.sec3{
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+    margin-bottom: 1.25rem;
+}
+.sec3 ul li{
+    background: url("../imgM/pg6_list_icon.png") 0.25rem center no-repeat;
+    background-size: 0.7rem;
+    padding: 0.3rem 1rem;
+    border: #bfbfbf solid 0.05rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.6rem;
+}
+.pagedet{
+    padding: 0.95rem;
+}
+.pos-name{
+    height: 1.25rem;
+    line-height: 1.25rem;
+    background:#e8e8e8 url("../imgM/pg6_list_icon.png") 0.25rem center no-repeat;
+    padding-left: 1rem;
+    background-size: 0.6rem;
+    font-size: 0.6rem;
+}
+.info{
+    font-size: 0.6rem;
+    margin:1rem  0 0.75rem 0.25rem;
+    color: #707070;
+}
+.info-det{
+    color: #707070;
+    font-size: 0.6rem;
+    padding: 0 0.25rem;
+    margin-bottom: 4.2rem;
+}
+.pagedet-btns{
+    position: fixed;
+    bottom: 0;
+    background: #FFFFFF;
+    padding-bottom: 0.8rem;
+}
+.pagedet-btns a{
+    display: block;
+    width: 100%;
+    border:0.05rem solid #8c8c8c;
+    text-align: center;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    width: 14.15rem;
+    color: #707070;
+    font-size: 0.6rem;
+}
+.pagedet-btns a:first-child{
+    background: #f25022;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    width: 14.15rem;
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    border: none;
+    margin-bottom: 0.55rem;
+}
+/*宣讲行程页*/
+.plan-wp{
+	width: 100%;
+	height: 100%;
+}
+.plan-box{
+	padding: 3.375rem 0.75rem 0;
+	width: 14.5rem;
+	height: 19.6rem;
+}
+.btn{
+	width: 100%;
+	height: 1.25rem;
+	line-height: 1.23rem;
+	color: #fff;
+	text-align: center;
+}
+.plan-box .btn-add{
+	background: #ffb901;
+	font-size: 0.9rem;
+}
+.plan-box .btn-back{
+	font-size: 0.6rem;
+	    background: #000 url('../imgM/back.png') 6rem center no-repeat;
+	    background-size: 0.5rem 0.65rem;}
+.train-wp{
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	margin-bottom: 0.25rem;
+}
+.list{
+	width: 100%;
+	height: 100%;
+}
+.list-li{
+	width:100%;
+	margin-top: 0.25rem;
+	background: rgba(255 , 255 , 255 , 0.2);
+}
+.list-info{
+	width:100%;
+	padding: 0.7rem 0;
+	overflow: hidden;
+}
+.list-info li{
+	float: left;
+}
+.list-info li p{
+	color: #fff;
+	font-size: 0.6rem;
+}
+.list-info .info-row{
+	width: 1.75rem;
+	padding-left: 0.2rem;
+}
+.list-info .info-add{
+	width: 7rem;
+}
+.list-info .info-time{
+	width: 3.4rem;
+	padding-right: 0.2rem
+}
